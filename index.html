@@ -1,17 +1,213 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" dir="ltr">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Alejandro Hernández - Diseñador WEB</title><!--Titulo de la página web en la pasteña de navegador-->
+    <link rel="stylesheet" href="estilos.css"><!--rel:Relación que tiene este link (stysheet: hoja de estilos css) / href: Ruta de referencia -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" >
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
 
-<body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
+    </script>
+  </head>
+
+
+  <body>
+
+    <!--Inicia header de la página web-->
+    <header>
+      <div class="contenedor">
+        <div class="menu">
+          <p>ALEJANDRO HERNÁNDEZ</p>
+          <nav> <!--Etiqueta para la navegación-->
+            <ul> <!--etiqueta "ol" la lista en el navegador aparecerá enúmerada-->
+              <li>Sobre mí</li> <!--Inicio-->
+              <li>Servicios</li> <!--About-->
+              <li>Mis Trabajos</li> <!--Blog-->
+              <li>¿Por qué trabajar conmigo?</li> <!--Tienda-->
+              <li>Blog</li>
+              <li>Contacto</li> <!--Contact-->
+            </ul>
+          </nav>
+        </div>
+
+        <div class="titular">
+          <h1>Alejandro Hernández</h1>
+          <h2>Diseñador y Desarrollador Web</h2>
+          <a href="">VER MIS TRABAJOS</a> <!--href se pone el url a otro sitio web [https://www.google.com] - una página creada [nombre_pagina.html] - para ir a otra sección de la misma página [#section] / target="_blank" es para abir el enlace en una nueva pestaña-->
+        </div>
+      </div>
+
+    </header>
+    <!--Termina header de la página web-->
+
+
+    <!--Inicia contenido principal de la página web-->
+    <main>
+
+      <!--Inicia sección "sobre mí"-->
+      <section>
+        <h3>Sobre mí</h3>
+        <div class="contenedor-sobremi">
+          <div class="yo">
+            <img src="imagenes/yo.jpg" alt="alejandro-hernandez" title="Alejandro Hernández"> <!--alt: posicionamiento en google / title: etiqueta de imagen-->
+          </div>
+
+          <div class="contenedor-parrafo-y-boton">
+            <p>Mi nombre es Alejandro Hernández y soy diseñador de páginas web. Tengo la experiencia en desarrollo de sitios web para pequeñas y medianas empresas, hasta tiendas en línea con carrito de compras.</p>
+            <p>Me aseguro de utilizar siempre las últimas tecnologías de desarrollo web: HTML5, CSS3, jQuery, Wordpress. Si necesitás una página web moderna, funcional, que se adapte a todos los diferentes tipos de pantalla, te aseguro que llegaste al lugar correcto.</p>
+            <p>Puedes ponerte en contacto conmigo a través de Facebook, Linkedin o completando el formulario de contacto que se encuentra al final de mi sitio web.</p>
+            <a href="#mistrabajos">VER MIS TRABAJOS</a>
+          </div>
+        </div>
+      </section>
+      <!--Termina sección "sobre mí"-->
+
+
+      <!--Inicia sección "servicios"-->
+      <section>
+          <h3>SERVICIOS</h3>
+          <div class="contenedor-servicio">
+            <div class="servicio violeta">
+              <h4>Diseño Web</h4>
+              <p>Páginas web atractivas y funcionales con el objetivo de satisfacer todas tus expectativas. La importancia del diseño es fundamental para tener éxito y atraer a tus visitantes. También lo es la velocidad de carga del sitio web, deben ser rápidos para que el visitante tenga la mejor experiencia</p>
+              <img src="imagenes/monitor.png" alt="">
+            </div>
+
+            <div class="servicio celeste">
+              <h4>Responsive Design</h4>
+              <p>Páginas web atractivas y funcionales con el objetivo de satisfacer todas tus expectativas. La importancia del diseño es fundamental para tener éxito y atraer a tus visitantes. También lo es la velocidad de carga del sitio web, deben ser rápidos para que el visitante tenga la mejor experiencia</p>
+              <img src="imagenes/mobile.png" alt="">
+            </div>
+
+            <div class="servicio violeta">
+              <h4>SEO</h4>
+              <p>Páginas web atractivas y funcionales con el objetivo de satisfacer todas tus expectativas. La importancia del diseño es fundamental para tener éxito y atraer a tus visitantes. También lo es la velocidad de carga del sitio web, deben ser rápidos para que el visitante tenga la mejor experiencia</p>
+              <img src="imagenes/seo.png" alt="">
+            </div>
+
+            <div class="servicio celeste">
+              <h4>Autoadministrable</h4>
+              <p>Páginas web atractivas y funcionales con el objetivo de satisfacer todas tus expectativas. La importancia del diseño es fundamental para tener éxito y atraer a tus visitantes. También lo es la velocidad de carga del sitio web, deben ser rápidos para que el visitante tenga la mejor experiencia</p>
+              <img src="imagenes/wordpress.png" alt="">
+            </div>
+
+            <div class="servicio violeta">
+              <h4>Mantenimiento</h4>
+              <p>Páginas web atractivas y funcionales con el objetivo de satisfacer todas tus expectativas. La importancia del diseño es fundamental para tener éxito y atraer a tus visitantes. También lo es la velocidad de carga del sitio web, deben ser rápidos para que el visitante tenga la mejor experiencia</p>
+              <img src="imagenes/mante.png" alt="">
+            </div>
+
+            <div class="servicio celeste">
+              <h4>Marketing Digital</h4>
+              <p>Páginas web atractivas y funcionales con el objetivo de satisfacer todas tus expectativas. La importancia del diseño es fundamental para tener éxito y atraer a tus visitantes. También lo es la velocidad de carga del sitio web, deben ser rápidos para que el visitante tenga la mejor experiencia</p>
+              <img src="imagenes/marketing.png" alt="">
+            </div>
+          </div>
+      </section>
+      <!--Termina sección "servicios"-->
+
+
+      <!--Inicia sección "mis trabajos"-->
+      <section id=mistrabajos>
+        <div class="contenedor">
+          <h3>Mis Trabajos</h3>
+          <!-- HTML para el carousel-->
+          <div class="owl-carousel">
+            <div> <img src="imagenes/foto1.jpg"> </div>
+            <div> <img src="imagenes/foto2.jpg"> </div>
+            <div> <img src="imagenes/foto3.jpg"> </div>
+            <div> <img src="imagenes/foto4.jpg"> </div>
+            <div> <img src="imagenes/foto5.jpg"> </div>
+          </div>
+        </div>
+      </section>
+      <!--Termina sección "mis trabajos"-->
+
+
+      <!--Inicia sección "¿por qué trabajar conmigo?"-->
+      <section>
+        <div class="contenedor">
+          <h3>¿Por qué trabajar conmigo?</h3>
+          <div class="contenedor-porque">
+
+            <div class="porque-singular">
+              <img src="imagenes/velocidad.png">
+              <h4>Velocidad</h4>
+              <p>Me aseguro de que tu web cargue entre 2 y 4 segundos (depende de la cantidad de contenido del sitio). Si una web tarda más de 5 segundos en cargar, el 70% de los usuarios lo cierra y no vuelve a entrar más</p>
+            </div>
+
+            <div class="porque-singular">
+              <img src="imagenes/mantenimiento.png">
+              <h4>Mantenimiento</h4>
+              <p>Mantengo una comunicación constante con mi cliente, para enseñarle a modificar contenido mediante el panel de Wordpress o para cualquier duda/cambio que quiera hacer en su sitio web</p>
+            </div>
+
+            <div class="porque-singular">
+              <img src="imagenes/mobile2.png">
+              <h4>Mobile Priority</h4>
+              <p>Cada vez más personas navegan desde sus celulares en cualquier parte del mundo. Me aseguro de que tu web esté optimizada para cualquier tipo de dispositivo móvil</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!--Termina sección "¿por qué trabajar conmigo?"-->
+
+
+      <!--Inicia sección "blog"-->
+      <section id="blog">
+        <div class="contenedor">
+          <h3>Blog</h3>
+          <div class="contenedor-publicaciones">
+
+            <div class="publicacion">
+              <img src="imagenes/blog1.jpg">
+              <h4>No alcanza con tener solamente una página web</h4>
+              <p class="primer-parrafo">¿Quierés aprender cuales son las herramientas que usan las mejores marcas para generar tráfico?</p>
+              <a>Leer más <i class="fas fa-arrow-right"></i> </a>
+            </div>
+
+            <div class="publicacion publicacion-segunda">
+              <img src="imagenes/blog2.jpg">
+              <h4>¿Qué es el remarketing y cómo utilizarlo?</h4>
+              <p>El remarketing es una de las técnicas más utilizadas por las mejores compañías! ¿Quierés saber de que se trata?</p>
+              <a>Leer más <i class="fas fa-arrow-right"></i> </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!--Termina sección "blog"-->
+    </main>
+    <!--Termina contenido principal de la página web-->
+
+
+    <!-- JS script para el owl carousel | Setup basic demo owl carousel | responsive - número de imagnes que aparecerán en el carousel (0 -> Celulares  600 -> Tablets  1000 -> Computadoras) [Instrucciones en página web]-->
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+          0:{
+              items:1
+            },
+          600:{
+              items:3
+          },
+          1000:{
+              items:4
+          }
+        }
+      })
+    </script>
+    <!--Fin del JS script-->
+
+  </body>
 
 </html>
